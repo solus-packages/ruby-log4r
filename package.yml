@@ -1,6 +1,6 @@
 name       : ruby-log4r
 version    : 1.1.10
-release    : 1
+release    : 2
 source     :
     - https://rubygems.org/downloads/log4r-1.1.10.gem : 9b452928c964b7c54c09aeb25ff045b5a722b387b16c9ce37cb1baec00062966
 license    : GPL-2.0
@@ -9,7 +9,7 @@ summary    : RubyGem - log4r
 description: |
     Log4r is a comprehensive and flexible logging library written in Ruby for use in Ruby programs. It features a hierarchical logging system of any number of levels, custom level names, logger inheritance, multiple output destinations, execution tracing, custom formatting, thread safteyness, XML and YAML configuration, and more.
 builddeps  :
-    - pkgconfig(ruby-2.3)
+    - pkgconfig(ruby-2.6)
 rundeps    :
     - ruby
 install    : |
