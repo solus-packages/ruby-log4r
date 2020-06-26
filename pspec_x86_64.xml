@@ -2,10 +2,10 @@
     <Source>
         <Name>ruby-log4r</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>programming.ruby</PartOf>
         <Summary xml:lang="en">RubyGem - log4r</Summary>
         <Description xml:lang="en">Log4r is a comprehensive and flexible logging library written in Ruby for use in Ruby programs. It features a hierarchical logging system of any number of levels, custom level names, logger inheritance, multiple output destinations, execution tracing, custom formatting, thread safteyness, XML and YAML configuration, and more.
@@ -19,122 +19,119 @@
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/content/contact.html</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/content/contribute.html</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/content/index.html</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/content/license.html</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/content/manual.html</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/dev/README.developers</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/dev/checklist</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/dev/things-to-do</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/images/log4r-logo.png</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/images/logo2.png</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/log4r.css</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/rdoc-log4r.css</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/doc/templates/main.html</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/README</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/ancestors.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/chainsaw_settings.xml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/customlevels.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/filelog.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/fileroll.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/gmail.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/gmail.yaml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/log4r_yaml.yaml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/logclient.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/logserver.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/moderate.xml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/moderateconfig.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/myformatter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/outofthebox.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/rdoc-gen</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/rrconfig.xml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/rrsetup.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/simpleconfig.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/syslogcustom.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/xmlconfig.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/examples/yaml.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/GDC.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/MDC.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/NDC.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/base.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/config.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/configurator.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/formatter/formatter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/formatter/log4jxmlformatter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/formatter/patternformatter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/lib/drbloader.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/lib/xmlloader.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/logevent.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/logger.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/loggerfactory.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/logserver.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/consoleoutputters.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/datefileoutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/emailoutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/fileoutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/iooutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/outputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/outputterfactory.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/remoteoutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/rollingfileoutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/scribeoutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/staticoutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/syslogoutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/outputter/udpoutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/GDC</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/MDC</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/NDC</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/configurator</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/emailoutputter</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/formatter</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/log4jxmlformatter</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/log4r</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/logger</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/logserver</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/outputter</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/patternformatter</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/scribeoutputter</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/syslogoutputter</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/win32eventoutputter</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/rdoc/yamlconfigurator</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/repository.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/staticlogger.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/lib/log4r/yamlconfigurator.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/README</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testGDC.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testMDC.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testNDC.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/test_helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testall.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testbase.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testchainsaw.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testconf.xml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testcustom.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testformatter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testlogger.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testoutputter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testpatternformatter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testthreads.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testxmlconf.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testyaml.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testyaml_arrays.yaml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/log4r-1.1.10/tests/testyaml_injection.yaml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/log4r-1.1.10.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/content/contact.html</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/content/contribute.html</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/content/index.html</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/content/license.html</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/content/manual.html</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/dev/README.developers</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/dev/checklist</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/dev/things-to-do</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/images/log4r-logo.png</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/images/logo2.png</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/log4r.css</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/rdoc-log4r.css</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/doc/templates/main.html</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/README</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/ancestors.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/chainsaw_settings.xml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/customlevels.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/filelog.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/fileroll.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/gmail.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/gmail.yaml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/log4r_yaml.yaml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/logclient.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/logserver.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/moderate.xml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/moderateconfig.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/myformatter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/outofthebox.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/rdoc-gen</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/rrconfig.xml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/rrsetup.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/simpleconfig.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/syslogcustom.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/xmlconfig.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/examples/yaml.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/GDC.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/MDC.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/NDC.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/base.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/config.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/configurator.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/formatter/formatter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/formatter/log4jxmlformatter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/formatter/patternformatter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/lib/drbloader.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/lib/xmlloader.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/logevent.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/logger.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/loggerfactory.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/logserver.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/consoleoutputters.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/datefileoutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/emailoutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/fileoutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/iooutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/outputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/outputterfactory.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/remoteoutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/rollingfileoutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/scribeoutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/staticoutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/syslogoutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/outputter/udpoutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/GDC</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/MDC</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/NDC</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/configurator</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/emailoutputter</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/formatter</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/log4jxmlformatter</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/log4r</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/logger</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/logserver</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/outputter</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/patternformatter</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/scribeoutputter</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/syslogoutputter</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/win32eventoutputter</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/rdoc/yamlconfigurator</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/repository.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/staticlogger.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/lib/log4r/yamlconfigurator.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/README</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testGDC.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testMDC.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testNDC.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/test_helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testall.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testbase.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testchainsaw.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testconf.xml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testcustom.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testformatter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testlogger.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testoutputter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testpatternformatter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testthreads.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testxmlconf.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testyaml.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testyaml_arrays.yaml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/log4r-1.1.10/tests/testyaml_injection.yaml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/log4r-1.1.10.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-10-07</Date>
+        <Update release="4">
+            <Date>2020-06-26</Date>
             <Version>1.1.10</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>
